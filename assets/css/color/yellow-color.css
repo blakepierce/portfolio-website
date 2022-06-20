@@ -1,0 +1,114 @@
+/*-----------------------------------------------------------
+* Template Name    : Arshia - Fully Responsive Personal Template
+* Author           : Retrina Group
+* Version          : 1.0.0
+* Created          : June 2020
+* File Description : Color sass file of the template
+*------------------------------------------------------------*/
+::selection {
+  background: rgba(247, 214, 80, 0.3);
+}
+
+::-moz-selection {
+  background: rgba(247, 214, 80, 0.3);
+}
+
+.base-color {
+  color: #17A15A !important;
+}
+
+.hero-social li a:hover, .blog-link a:hover {
+  color: #f4d143 !important;
+}
+
+.bg-base-color {
+  background-color: #17A15A !important;
+}
+
+.follow-label:before,
+.skill-box .fill-skillbar,
+.timeline-area:before,
+.testimonial .testimonial-border,
+.blog-content:before,
+.blog .owl-dot.active span {
+  background: #17A15A;
+}
+
+.testimonial .owl-dot.active span {
+  background: #17A15A !important;
+}
+
+.menu li a,
+header .navbar-brand span,
+header .navbar-brand b,
+.pill-button,
+.pill-button:hover,
+.ability ul li:before,
+.timeline-icon,
+.timeline-year,
+.language-skill ul li i,
+.contact .form-item .form-control,
+.comments .comment-info a,
+.portfolio .portfolio-icon a,
+.portfolio .portfolio-icon a:first-child,
+.blog-content button:hover,
+.comments .comment-info a:hover,
+.social a:hover {
+  color: #17A15A;
+}
+
+.loader {
+  border-top: 4px solid #17A15A !important;
+}
+
+.timeline-icon {
+  border: 1px solid #17A15A;
+  background-color: #17A15A;
+}
+
+.portfolio .portfolio-item-content::before {
+  background-color: rgba(247, 214, 80, 0.9);
+}
+
+.menu-toggler span {
+  background-color: #17A15A;
+}
+
+.timeline-item:before {
+  border: 2px solid #17A15A;
+}
+
+.timeline-item:before {
+  border: 1px solid #17A15A;
+}
+
+.header nav .nav-pills a.active {
+  color: #17A15A !important;
+}
+
+.header nav a:hover {
+  color: #17A15A !important;
+}
+
+.testimonial .testimonial-item::before {
+  color: #17A15A;
+}
+
+/*-------------------------
+      Flat Demo
+-------------------------*/
+.flat-demo .button-border, .arshia-dark.flat-demo .button-border {
+  background-color: #17A15A;
+}
+
+.flat-demo .pill-button:hover, .flat-demo .pill-button.active {
+  background-color: #f4d143;
+}
+
+.arshia-dark .hero-social li a:hover {
+  color: #f4d143 !important;
+}
+
+.arshia-dark .header nav a:hover {
+  color: #f4d143 !important;
+}
