@@ -1519,6 +1519,8 @@ canvas.particles-js-canvas-el {
   }
   .modal-dialog {
     max-width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   .services-content h5 {
     font-size: 16px;
@@ -1611,6 +1613,12 @@ canvas.particles-js-canvas-el {
   #message.toast {
     top: 60px;
     left: 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .modal-dialog {
+    max-width: 50%;
   }
 }
 
